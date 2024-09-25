@@ -15,3 +15,20 @@ if(Array.isArray(numbers)){
 else{
     console.log('its not an array');
 }
+
+// isNaN checking 
+const name = 'rasel';
+if(isNaN(name)){
+    console.log('its not a number')
+}
+else{
+    console.log('its a number');
+}
+
+// checking undefined 
+let a;
+if (typeof a === "undefined") {
+  console.log("a is undefined");
+} else {
+  console.log("a has a value");
+}
